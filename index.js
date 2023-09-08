@@ -48,6 +48,7 @@ const isNumEven = (num) => {
 //console.log(isNumEven(100));
 
 function add (x, y) {
+    console.log('What do you want to add together?');
     return x + y;
 };
 console.log(add(5, 8));
